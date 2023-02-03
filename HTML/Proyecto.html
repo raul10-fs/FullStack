@@ -5,42 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
     <style>
      * {
             box-sizing: border-box;
+            font-family:'Montserrat', sans-serif;
         }
         body {
             margin: 0px;
         }
-.main-header{
+    header.main-header{
         background-color:#2ddf5c;
         padding: 8px 16px;
         width: 100%;
         display: inline-block;
       }
       li.main-nav-item {
-        display: inline-block;
+        display: inline-block; 
+        color: (#0e4f1f);
+        margin: 10px;
+        font-weight: 700;
+        border: 1px solid grey;
+        padding: 5px;
+        background-color: #91d3a3;
       }
     ul.main-nav-items¨{
         display: inline-block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
     nav.main-nav{
         display: inline-block;
+        width: calc(100% - 100px) ;
+        text-align: right;
+        vertical-align:middle
     }
+        .main-header > div {
+            display:inline-block;
+            vertical-align:middle
+        }
+        h1.main-header-brand{
+            color: #ffffff; text-decoration: none; font-weight: bold; font-size: 22px
+        }
+        a{
+            text-decoration: none;
+            color: (#969696);
+            font-weight: 800;
+        }
     </style>
     </head>
      <body>
-    <header class="main-header">
-        <div>
-               <h1>BANCO</h1>    
-               <nav class="main-nav">
-                  <ul class="main-nav-item"> 
-                      <li class="main-nav-item">Dinero</li>
-                      <li class="main-nav-item">Bizum</li>
-                      <li class="main-nav-item">Transferencias</li>
-                   </ul>
-                </nav>
-           </div>
-    </header>
-</body>
+         <header class="main-header">
+                 <div> 
+                     <img src="../IMG/descarga.png"alt="Banco" height="65" width="65">
+                     <h1 class="main-header-brand">Banco</h1>
+                 </div>  
+                 <nav class="main-nav">
+                     <ul class="main-nav-item"> 
+                        <li class="main-nav-item"><a href="../HTML/Proyecto.html">Inicio</a></li>
+                        <li class="main-nav-item"> <a href="../HTML/Proyecto.html">Acceso</a></li>
+                         <li class="main-nav-item"><a href="../HTML/Proyecto.html">Dinero</a></li>
+                         <li class="main-nav-item"><a href="../HTML/Proyecto.html">Bizum</a></li>
+                         <li class="main-nav-item"><a href="../HTML/Proyecto.html">Transferencias</a></li>
+                         
+                     </ul>
+                 </nav>
+         </header>
+     </body>
 </html>
