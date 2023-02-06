@@ -1,1 +1,0 @@
-control.log("Hello word!")
