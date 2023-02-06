@@ -1,0 +1,1 @@
+control.log("Hello word!")
