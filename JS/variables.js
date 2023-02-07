@@ -2,9 +2,9 @@ var alert1 = 1;
 console.log(alert1);
 var alert1 = '';// permitido
 
-let alert2 = 5;//DECLARAR Y ASIGNACION
+let alert2 = 5;//DECLARAR Y CREAR
 var pepito;//DECLARAR Y CREAE
-pepito = 17; // ASIGNAR = DEFINES VALOR Y TIPO
+pepito = 17; // ASIGNAR = DEFINES VALOR Y TIPO DECLARACION
 
  alert2=13;
 console.log(alert2);
